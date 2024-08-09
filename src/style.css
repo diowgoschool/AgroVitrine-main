@@ -1,0 +1,55 @@
+.car-largura{
+	max-width: 18rem;
+}
+
+.imagem-carrossel{
+/*como o elemento se comporta ao conteiner dele. Cover cubra*/
+	object-fit: cover; 
+/*move a imagem no eixo x e y*/
+	object-position: 0 80%;
+	height: 400px;
+}
+
+.fonte-titulo{
+	font-family: "Kanit", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.fonte-carrossel {
+	text-shadow: 0 0 10px #000
+}
+
+.card-title {
+	font-family: "Kanit", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.card:hover {
+	transform: scale(105%);
+}
+
+.card {
+	transition: .3s;
+}
+
+.texto-cor-especial{
+	color: darkgreen!important;
+}
+
+.botao-cor-especial{
+	background-color: darkgreen;
+	color: white;
+}
+
+.borda-cor-especial{
+	border-color: darkgreen;
+}
+
+.card-posicao-imagem{
+	object-fit: cover; 
+/*move a imagem no eixo x e y*/
+	/*object-position: 0 80%;*/
+	height: 200px;	
+}
